@@ -87,6 +87,11 @@ ul {
   margin-right: 10px;
 }
 
+.contact-link-item:hover,
+.contact-link-item:focus {
+  fill: var(--accent-color);
+}
+
 .nav {
   display: flex;
   width: 100%;
@@ -571,7 +576,6 @@ ul {
 .socialnet-title {
   font-family: Roboto;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
